@@ -27,3 +27,28 @@ for( i=2;i<n;i++){
 }
     console.log("prime");
     
+let m =10
+
+while(m>0){
+    console.log(m);
+    m--;
+}
+
+let k = 10;
+
+for(let i=1;i<k;i++){
+    console.log(i);
+    
+}
+
+let a=10;
+ console.log("a="+a);
+ let b=20;
+ console.log("b="+b);
+
+
+let sum = a;
+a=b;
+b=sum;
+console.log("a="+a);
+console.log("b="+b);
