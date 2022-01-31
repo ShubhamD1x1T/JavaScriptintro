@@ -42,13 +42,13 @@ for(let i=1;i<k;i++){
 }
 
 let a=10;
- console.log("a="+a);
+ console.log("a=",a);
  let b=20;
- console.log("b="+b);
+ console.log("b=",b);
 
 
 let sum = a;
 a=b;
 b=sum;
-console.log("a="+a);
-console.log("b="+b);
+console.log("a=",a);
+console.log("b=",b);
