@@ -51,3 +51,11 @@ console.log("after shift",arr);
 console.log("before unshift",arr);
 arr.unshift(6);
 console.log("after unshift",arr);
+
+//5. length
+console.log(arr.length);
+
+//6.2D array
+
+let matrix = [[1,2,3],[2,3,4],[3,4,5]];
+console.log(matrix);
