@@ -26,21 +26,33 @@ fs.appendFileSync('file.txt',"how are you");
 
 fs.unlinkSync("file2.txt");
 
-//read directory    
-let foldercontent = fs.readdirSync(__dirname);
-console.log(foldercontent);
+// //read directory    
+// let foldercontent = fs.readdirSync(__dirname);
+// console.log(foldercontent);
 
-//check if exists or not
-let isExists = fs.existsSync('new_module');
-console.log(isExists);
+// //check if exists or not
+// let isExists = fs.existsSync('new_module');
+// console.log(isExists);
 
-if(isExists == false){
-    //create a directory
-    fs.mkdirSync('new_module');
-}else{
-    // delete a directory
-    fs.rmdirSync('new_module');
+// if(isExists == false){
+//     //create a directory
+//     fs.mkdirSync('new_module');
+// }else{
+//     // delete a directory
+//     fs.rmdirSync('new_module');
+// }
+
+ 
+let isexsist = fs.existsSync('new module');
+console.log(isexsist);
+//fs.mkdirSync('new module');
+if(isexsist == false){
+    fs.mkdirSync('new module');
 }
+else{
+    fs.rmdirSync('new module');
+}
+
 
 //copy a file
 
@@ -51,4 +63,4 @@ if(isExists == false){
 // console.log(destPath);
 // fs.copyFileSync('/Users/harshitdixit/JP_DEV/module 2/node/file.txt',destPath);
 
-fs.copyFileSync("/Users/harshitdixit/JP_DEV/module 2/node/file.txt","/Users/harshitdixit/JP_DEV/module 2/js/file.txt");
+//fs.copyFileSync("/Users/harshitdixit/JP_DEV/module 2/node/file.txt","/Users/harshitdixit/JP_DEV/module 2/js/file.txt");
